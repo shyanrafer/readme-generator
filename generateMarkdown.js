@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  
+
 }
 
 
@@ -18,10 +18,28 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+// after exporting this file, I can pass the data from the questions prompt into here 
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+# ${data.projectName}
 
+## Description
+${data.description}
+
+## Installation
+${data.installInstructions}
+
+## Usage
+${data.useGuide}
+
+## Contributing
+${data.contribution}
+
+## Tests
+${data.tests}
+
+## License
+Chosen License: ${data.licenseType.join(', ')}
 `;
 }
-
 module.exports = generateMarkdown;
