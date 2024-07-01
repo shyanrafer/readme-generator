@@ -72,7 +72,7 @@ Repo link: ${data.repoLink}
 ## Contact
 Best mode of contact: ${data.contact} <br/>
 Contact info: ${data.contactInfo} <br/>
-[Back to top](#title)
+[Back to top](#title:)
 `;
 }
 // returns a string
