@@ -14,7 +14,8 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license === ""){return ""}
-  
+  if(license === "MIT"){return "https://www.mit.edu/~amini/LICENSE.md"}
+  if(license === "Creative Commons"){return "https://creativecommons.org/share-your-work/cclicenses/"}
 }
 
 
@@ -24,7 +25,10 @@ function renderLicenseSection(license) {
 // this fx needs to return a string
 if(license === ""){return ""}
 return `## License
-${renderLicenseBadge(license)}`
+${renderLicenseBadge(license)}
+${renderLicenseLink(license)}
+
+`
 }
 
 // TODO: Create a function to generate markdown for README
