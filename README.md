@@ -26,3 +26,10 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+
+
+<!-- challenges and setbacks -->
+<!-- I did have a tutor help me sort out the badges aspect of this assignment -->
+<!-- There was also a point where I encountered a merge conflict. I was in the zone in regards to writing code and with that had an idea mid commit. I resolved by  -->
+tutor said i need to pseudocode and console.log more often. This will allow me to consider data types and how to accomdate writing those data types thus making the writing easier and faster. Also, along the way, I can see the results of my code.

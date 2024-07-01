@@ -15,6 +15,7 @@ const questions = [
   {
     name: 'projectName',
     message: 'What is the title of your project?'
+    // is an object - string - input
   },
   {
     name: 'description',
@@ -38,34 +39,58 @@ const questions = [
   },
   {
     name: 'licenseType',
-    type: 'checkbox',
+    type: 'list',
     message: 'Choose a license.',
     // choices have to be an array just like questions
     choices: [
       'Creative Commons',
-      'MIT',
-      'Open Source'
+      'MIT'
     ]
+  },
+  {
+    name: 'questions',
+    message: 'What is your Github username?'
+  },
+  {
+    name: 'profLink',
+    message: 'Enter the link to your github profile.'
+  },
+  {
+    name: 'repoLink',
+    message: 'Enter the link to your project repo.'
+  },
+  {
+    name:'contact',
+    message: 'What is the best means to contact you?'
+  },
+  {
+    name: 'contactInfo',
+    message: 'Enter your contact information.'
   }
 ]
 
-// call inquirer, use the prompt method with questions as the param.
-inquirer
-.prompt(questions)
-// then use the answers 
-.then((answers) => {
-  const markdownn = generateMarkdown(answers);
-  console.log(markdown)
-})
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFile('README.md', )
+function writeToFile(fileName, data) { // tutor section
+  fs.writeFile(`${fileName}.md`, data, err => err? console.log("Error!") : console.log("File Written!") )
+
 }
 
 // TODO: Create a function to initialize app
 function init() {
-
+  // call inquirer, use the prompt method with questions as the param.
+  inquirer
+    .prompt(questions)
+    // then use the answers 
+    .then((answers) => {
+      console.log("Inquirer.prompt complete")
+      console.log(answers);
+      const markdown = generateMarkdown(answers);
+      console.log(markdown)
+      // once we have data, write to file
+      writeToFile(answers.projectName, markdown);
+    })
 }
 
 // Function call to initialize app
