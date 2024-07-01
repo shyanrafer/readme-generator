@@ -26,6 +26,7 @@ function renderLicenseSection(license) {
 if(license === ""){return ""}
 return `## License
 ${renderLicenseBadge(license)} <br/>
+Notice: This project is licensed with a ${license} license. More infor pertaining to the given license is provided in the link below. <br/>
 ${renderLicenseLink(license)}
 
 `
