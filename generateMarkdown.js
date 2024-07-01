@@ -35,8 +35,7 @@ ${renderLicenseLink(license)}
 // TODO: Create a function to generate markdown for README
 // after exporting this file, I can pass the data from the questions prompt into here 
 function generateMarkdown(data) {
-  return `
-# ${data.projectName}
+  return `# ${data.projectName}
 ${renderLicenseBadge(data.licenseType)}
 
 ## Description

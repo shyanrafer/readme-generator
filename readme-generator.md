@@ -1,9 +1,8 @@
-
-# at-this-point-its-a-meme
+# readme-generator
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Description
-adfg
+Writing readme's.
 
 ## Table of contents
 - [Installation](#installation)
@@ -14,16 +13,16 @@ adfg
 - [Contact](#contact)
 
 ## Installation
-sdf
+Copy files, run paackage.json in integrated terminal, install npm packs, then open index in integrated terminal, run node index, enter values for prompts, done.
 
 ## Usage
-dzgb
+Writing readme's.
 
 ## Contributing
-sgb
+Create a feature branch and submit for review.
 
 ## Tests
-sfgb
+u/k
 
 ## License
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) <br/>
@@ -33,12 +32,12 @@ https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
 
 
 ## Questions
-Github username: sdgfb <br/>
-Github profile link: sgfb <br/>
-Repo link: sfgb
+Github username: shyanrafer <br/>
+Github profile link: https://github.com/shyanrafer <br/>
+Repo link: https://github.com/shyanrafer/readme-generator
 
 ## Contact
-Best mode of contact: sfgb <br/>
-Contact info: sgfb <br/>
+Best mode of contact: Email <br/>
+Contact info: ryanshaffer1324@gmail.com <br/>
 <br/>
-[Back to top](#at-this-point-its-a-meme)
+[Back to top](#readme-generator)
