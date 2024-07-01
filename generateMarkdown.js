@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if(license === ""){return ""}
   if(license === "MIT"){return "https://www.mit.edu/~amini/LICENSE.md"}
-  if(license === "Creative Commons"){return "https://creativecommons.org/share-your-work/cclicenses/"}
+  if(license === "Creative Commons"){return "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en"}
 }
 
 
@@ -35,7 +35,8 @@ ${renderLicenseLink(license)}
 // after exporting this file, I can pass the data from the questions prompt into here 
 function generateMarkdown(data) {
   return `
-# ${data.projectName} -- ${renderLicenseBadge(data.licenseType)}
+# Title
+${data.projectName} -- ${renderLicenseBadge(data.licenseType)}
 
 ## Description
 ${data.description}
@@ -69,7 +70,8 @@ Repo link: ${data.repoLink}
 
 ## Contact
 Best mode of contact: ${data.contact} <br/>
-Contact info: ${data.contactInfo}
+Contact info: ${data.contactInfo} <br/>
+[Back to top](#projectName)
 `;
 }
 // returns a string
