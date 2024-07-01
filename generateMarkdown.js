@@ -36,7 +36,7 @@ ${renderLicenseLink(license)}
 // after exporting this file, I can pass the data from the questions prompt into here 
 function generateMarkdown(data) {
   return `
-# Title - ${data.projectName}
+# ${data.projectName}
 ${renderLicenseBadge(data.licenseType)}
 
 ## Description
@@ -72,7 +72,8 @@ Repo link: ${data.repoLink}
 ## Contact
 Best mode of contact: ${data.contact} <br/>
 Contact info: ${data.contactInfo} <br/>
-[Back to top](#title)
+<br/>
+[Back to top](#${data.projectName})
 `;
 }
 // returns a string
