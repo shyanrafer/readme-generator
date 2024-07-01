@@ -31,7 +31,7 @@ I did have a tutor help me sort out the badges aspect of this assignment. The tu
 There was also a point where I encountered a merge conflict. I was in the zone in regards to writing code and with that had an idea mid commit. I ended up making edits then finished the push afterwards. Before undoing, I quickly copied the edited version, unstaged the commit, rebased to a prior commit, then copy - pasted the edited version, recommitted and then pushed up without problems. 
 
 ## Links
-Github repo: https://github.com/shyanrafer/readme-generator
+Github repo: https://github.com/shyanrafer/readme-generator <br/>
 Screencastify video: https://drive.google.com/file/d/1RjcMoWEfJA92prxLRmhJjIDZj-GN9tDT/view
 
 ## Screenshots
