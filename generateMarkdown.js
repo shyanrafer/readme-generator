@@ -26,7 +26,7 @@ function renderLicenseSection(license) {
 if(license === ""){return ""}
 return `## License
 ${renderLicenseBadge(license)} <br/>
-Notice: This project is licensed with a ${license} license. More infor pertaining to the given license is provided in the link below. <br/>
+Notice: This project is licensed with a ${license} license. More information pertaining to the given license is provided in the link below. <br/>
 ${renderLicenseLink(license)}
 
 `
@@ -36,8 +36,7 @@ ${renderLicenseLink(license)}
 // after exporting this file, I can pass the data from the questions prompt into here 
 function generateMarkdown(data) {
   return `
-# Title
-${data.projectName} -- ${renderLicenseBadge(data.licenseType)}
+# ${data.projectName} -- ${renderLicenseBadge(data.licenseType)}
 
 ## Description
 ${data.description}
@@ -72,7 +71,7 @@ Repo link: ${data.repoLink}
 ## Contact
 Best mode of contact: ${data.contact} <br/>
 Contact info: ${data.contactInfo} <br/>
-[Back to top](#title)
+[Back to top](#data.projectName)
 `;
 }
 // returns a string

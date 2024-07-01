@@ -1,6 +1,5 @@
 
-# Title
-Test-6 -- [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+# test-7 -- [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Description
 sdh
@@ -14,30 +13,30 @@ sdh
 - [Contact](#contact)
 
 ## Installation
-sdthh
+sd
 
 ## Usage
 sdth
 
 ## Contributing
-sdth
+sdt
 
 ## Tests
-sdth
+sdt
 
 ## License
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) <br/>
-Notice: This project is licensed with a Creative Commons license. More infor pertaining to the given license is provided in the link below. <br/>
+Notice: This project is licensed with a Creative Commons license. More information pertaining to the given license is provided in the link below. <br/>
 https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
 
 
 
 ## Questions
-Github username: sdt <br/>
-Github profile link: sdth <br/>
-Repo link: sdth
+Github username: sd <br/>
+Github profile link: st <br/>
+Repo link: sft
 
 ## Contact
-Best mode of contact: sdth <br/>
-Contact info: sdth <br/>
-[Back to top](#title)
+Best mode of contact: sftn <br/>
+Contact info: sft <br/>
+[Back to top](#data.projectName)
