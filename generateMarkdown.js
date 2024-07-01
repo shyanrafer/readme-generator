@@ -25,7 +25,7 @@ function renderLicenseSection(license) {
 // this fx needs to return a string
 if(license === ""){return ""}
 return `## License
-${renderLicenseBadge(license)}
+${renderLicenseBadge(license)} <br/>
 ${renderLicenseLink(license)}
 
 `
@@ -63,12 +63,12 @@ ${data.tests}
 ${renderLicenseSection(data.licenseType)}
 
 ## Questions
-Github username: ${data.questions}
-Github profile link: ${data.profLink}
+Github username: ${data.questions} <br/>
+Github profile link: ${data.profLink} <br/>
 Repo link: ${data.repoLink}
 
 ## Contact
-Best mode of contact: ${data.contact}
+Best mode of contact: ${data.contact} <br/>
 Contact info: ${data.contactInfo}
 `;
 }
