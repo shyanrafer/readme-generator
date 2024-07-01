@@ -1,6 +1,5 @@
 # readme-generator
 
-
 ## User Story
 ```md
 AS A developer
@@ -27,9 +26,15 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
+## Challenges and setbacks
+I did have a tutor help me sort out the badges aspect of this assignment. The tutor said i need to pseudocode and console.log more often. This will allow me to consider data types and how to accomdate writing those data types thus making the writing easier and faster when time comes to doing so. Also, along the way, I can see the results of my code via console logs. <br/>
+There was also a point where I encountered a merge conflict. I was in the zone in regards to writing code and with that had an idea mid commit. I ended up making edits then finished the push afterwards. Before undoing, I quickly copied the edited version, unstaged the commit, rebased to a prior commit, then copy - pasted the edited version, recommitted and then pushed up without problems. 
 
+## Links
+Github repo: https://github.com/shyanrafer/readme-generator
+Screencastify video: https://drive.google.com/file/d/1RjcMoWEfJA92prxLRmhJjIDZj-GN9tDT/view
 
-<!-- challenges and setbacks -->
-<!-- I did have a tutor help me sort out the badges aspect of this assignment -->
-<!-- There was also a point where I encountered a merge conflict. I was in the zone in regards to writing code and with that had an idea mid commit. I resolved by  -->
-tutor said i need to pseudocode and console.log more often. This will allow me to consider data types and how to accomdate writing those data types thus making the writing easier and faster. Also, along the way, I can see the results of my code.
+## Screenshots
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
