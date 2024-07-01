@@ -42,9 +42,9 @@ ${data.projectName} -- ${renderLicenseBadge(data.licenseType)}
 ${data.description}
 
 ## Table of contents
-- [Installation](#installInstructions)
-- [Usage](#useGuide)
-- [Contributing](#contribution)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 - [Contact](#contact)
@@ -71,7 +71,7 @@ Repo link: ${data.repoLink}
 ## Contact
 Best mode of contact: ${data.contact} <br/>
 Contact info: ${data.contactInfo} <br/>
-[Back to top](#projectName)
+[Back to top](#title)
 `;
 }
 // returns a string
@@ -94,7 +94,5 @@ function handleFormSumbit (event){
         
       }
     })
-  
-  // we might want to save something to local storage
-} 
+  } 
 
